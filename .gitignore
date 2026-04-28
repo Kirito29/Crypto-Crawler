@@ -216,3 +216,17 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+# Django-specific gaps
+db.sqlite3
+*.log
+local_settings.py
+.env
+media/
+staticfiles/
+
+# Optional but recommended
+.vscode/
+.idea/
+*.pdf
